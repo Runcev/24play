@@ -1,0 +1,42 @@
+.add-button {
+    margin: 1rem 2rem;
+    justify-content: left;
+}
+.bills-table {
+    position: sticky;
+    max-height: calc(100vh - 64px);
+}
+
+.bill-list-container {
+    margin: 0 2rem 2rem;
+}
+
+.bill-add-button {
+    width: 120px;
+}
+
+.bill-modal-content {
+    padding: 10px 40px 20px 40px !important;
+}
+
+.bill-modal-actions {
+    padding: 0 20px 20px 20px !important;
+}
+
+.bill-modal-actions .button {
+    width: 100px;
+}
+
+.modal-bill-form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+    .order-v-button {
+        left: 0;
+        top: 0;
+    }
+}
