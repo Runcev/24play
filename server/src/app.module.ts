@@ -8,7 +8,7 @@ import {BillModule} from "./Bill/bill.module";
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/24play-test', { useNewUrlParser: true }),
+    MongooseModule.forRoot("mongodb+srv://admin:admin@24play.lqbiojc.mongodb.net/24play?retryWrites=true&w=majority", { useNewUrlParser: true }),
     CompanyModule,
     BillModule,
   ],

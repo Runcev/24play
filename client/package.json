@@ -26,7 +26,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:dev": "concurrently \\\"cd ../test-assigment-backend && npm run start:dev\\\" \\\"cd ../test-assigment-frontend && react-scripts start\\\"",
+    "start:dev": "concurrently \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"cd ../server && npm run start:dev\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"cd  && react-scripts start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
